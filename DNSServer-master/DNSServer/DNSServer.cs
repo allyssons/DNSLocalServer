@@ -124,7 +124,7 @@ namespace DNSServer {
 
             var x = new DNSDatagram();
 
-            var url = "www.google.com";
+            var url = "play.google.com";
 
             Console.WriteLine("Realizando a tradução do nome: " + url +
                               "\nUtilizando o servidor raiz: " + rootServer + "\n");
@@ -191,6 +191,8 @@ namespace DNSServer {
 
 
             Console.ReadKey();
+
+            Console.Clear();
 
         }
     }
